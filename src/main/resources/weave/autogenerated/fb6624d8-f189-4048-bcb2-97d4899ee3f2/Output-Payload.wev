@@ -1,0 +1,8 @@
+%dw 2.0
+
+type auto_fb6624d8_f189_4048_bcb2_97d4899ee3f2_Output_Payload = {
+  destination: String, 
+  planes: Array<{    "type": String,     pricePerSeat: String,     _?: Any  }>, 
+  _?: Any
+}
+

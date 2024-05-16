@@ -1,0 +1,24 @@
+https:
+  port: "8082"
+  host: "0.0.0.0"
+  basepath: "/"
+  keystore: 
+    path: "keystore/keystore-dev.jks"
+    password: "![NZVjUKeZNLI=]"
+    type: "JKS"
+
+
+process: 
+  host: "mule-worker-api-led-process-ex2.us-e2.cloudhub.io"
+  port: "8082"  
+  basepath: "/api"
+  client_id: "9353b6fed7c04b39866f4379a310351d"
+  client_secret: "![eUi3ibPmLJD20uqNHSGJ4W8uczEGQJIcz+4UPnYYqlPxnH9v20++EQ==]"
+  protocol: "HTTPS"
+  keystore: 
+    path: "keystore/truststore-dev.jks"
+    password: "![NZVjUKeZNLI=]"
+    type: "JKS"
+    
+api: 
+  id: "19441845"
